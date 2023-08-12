@@ -1,0 +1,2 @@
+[21-Nov-2019 23:33:36 UTC] PHP Fatal error:  Class 'App\Authenticatable' not found in /home3/omar/public_html/app/Course.php on line 6
+[09-Mar-2020 10:31:49 UTC] PHP Fatal error:  Access level to App\Mail\SendMail::$from must be public (as in class Illuminate\Mail\Mailable) in /home3/omar/public_html/app/Mail/SendMail.php on line 10

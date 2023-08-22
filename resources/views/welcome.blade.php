@@ -3,36 +3,44 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-3 col-md-6 col-sm-12 d-catmb mb-4 mb-xl-0">
+                <a href="{{url('/services')}}">
                 <div class="d-flex">
                     <div><span class="icon-service1 icon-primary fs-35"> <i class="fe fe-users"></i> </span></div>
-                    <div class="ml-4"><h3 class="mb-2 font-weight-bold">Experts</h3>
-                        {{--                        <p class="text-muted mb-0">Nam libero tempore, cum soluta nobis est eligendi cumque facere</p>--}}
+                    <div class="ml-4"><h3 class="mb-2 font-weight-bold">Services</h3>
+                                              <p class="text-muted mb-0">trust of the market by providing consultation technical services</p>
                     </div>
                 </div>
+                </a>
             </div>
             <div class="col-xl-3 col-md-6 col-sm-12 d-catmb mb-4 mb-xl-0">
+            <a href="{{url('/courses')}}">
                 <div class="d-flex">
                     <div><span class="icon-service1 icon-secondary fs-35"> <i class="fe fe-book"></i> </span></div>
                     <div class="ml-4 mt-1"><h3 class="mb-2 font-weight-bold"> Courses</h3>
-                        {{--                        <p class="text-muted mb-0">Nam libero tempore, cum soluta nobis est eligendi cumque facere</p>--}}
+                                              <p class="text-muted mb-0">Online / Offline Courses</p>
                     </div>
                 </div>
+            </a>
             </div>
             <div class="col-xl-3 col-md-6 col-sm-12 d-catmb mb-4 mb-md-0">
+            <a href="{{url('/books')}}">
                 <div class="d-flex">
                     <div><span class="icon-service1 icon-success fs-35"> <i class="fe fe-layers"></i> </span></div>
-                    <div class="ml-4 mt-1"><h3 class="mb-2 font-weight-bold">Online</h3>
-                        {{--                        <p class="text-muted mb-0">Nam libero tempore, cum soluta nobis est eligendi cumque facere</p>--}}
+                    <div class="ml-4 mt-1"><h3 class="mb-2 font-weight-bold">Material</h3>
+                                             <p class="text-muted mb-0"> Books as PDF to preview online or download </p>
                     </div>
                 </div>
+            </a>
             </div>
             <div class="col-xl-3 col-md-6 col-sm-12">
+            <a href="{{url('/certificates')}}">
                 <div class="d-flex">
                     <div><span class="icon-service1 icon-warning fs-35"> <i class="fe fe-file-text"></i> </span></div>
-                    <div class="ml-4 mt-1"><h3 class="mb-2 font-weight-bold">Certified</h3>
-                        {{--                        <p class="text-muted mb-0">Nam libero tempore, cum soluta nobis est eligendi cumque facere</p>--}}
+                    <div class="ml-4 mt-1"><h3 class="mb-2 font-weight-bold">Certificates</h3>
+                                               <p class="text-muted mb-0">where you can fine your dact certified certificate</p>
                     </div>
                 </div>
+            </a>
             </div>
         </div>
     </div>
